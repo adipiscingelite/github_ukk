@@ -8,16 +8,16 @@
                     <div class="card-body">
                         <table class="table">
                             <tr>
-                                <td>Merk</td>
+                                <td>Tanggal Keluar</td>
                                 <td>{{ $rsetBarangKeluar->tgl_keluar }}</td>
                             </tr>
                             <tr>
-                                <td>Seri</td>
+                                <td>Quantity</td>
                                 <td>{{ $rsetBarangKeluar->qty_keluar }}</td>
                             </tr>
                             <tr>
-                                <td>Spek</td>
-                                <td>{{ $rsetBarangKeluar->barang_id }}</td>
+                                <td>Barang ID - Merk</td>
+                                <td>{{ $rsetBarangKeluar->barang_id }} - {{ $rsetBarangKeluar->barang->merk }}</td>
                             </tr>
                         </table>
                     </div>
@@ -25,7 +25,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-12  text-center">
+            <div class="col-md-12  text-left">
                 
 
                 <a href="{{ route('barangkeluar.index') }}" class="btn btn-md btn-primary mt-3">Back</a>

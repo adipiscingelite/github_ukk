@@ -40,7 +40,7 @@
                 <div class="sidebar-brand-icon rotate-n-15">
                     <i class="fas fa-laugh-wink"></i>
                 </div>
-                <div class="sidebar-brand-text mx-3">JOKoding</div>
+                <div class="sidebar-brand-text mx-3">Sijakoding</div>
             </a>
 
             <!-- Divider -->
@@ -324,7 +324,7 @@
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <span class="mr-2 d-none d-lg-inline text-gray-600 small">{{ Auth::user()->name }}</span>
                                 <img class="img-profile rounded-circle"
-                                    src="https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/c2e9fcd4add340988a64bb9606fcd059~c5_100x100.jpeg?lk3s=a5d48078&nonce=8975&refresh_token=fd42cd488ade38bfdac345e6d9bb6401&x-expires=1718697600&x-signature=MuSclkOs%2FUGYiOzqyC%2B3ATY5YTE%3D&shp=a5d48078&shcp=81f88b70">
+                                    src="https://i.pinimg.com/474x/c8/66/41/c86641177e76205a2942660787261891.jpg">
                             </a>
                             <!-- Dropdown - User Information -->
                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
@@ -381,7 +381,7 @@
             <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
-                        <span id="copyrihgt">Copyright &copy; Jovanka Arya 2024</span>
+                        <span id="copyrihgt">Copyright &copy; Syaiful Rahmatdani 2024</span>
                         <!-- <div ></div> -->
                     </div>
                 </div>
