@@ -37,7 +37,7 @@
                     <div class="card-body p-0">
                         <!-- Nested Row within Card Body -->
                         <div class="row">
-                            <div class="col-lg-6 d-none d-lg-block bg-login-image" style=" background: url('https://media1.tenor.com/m/ONoBLoD8XIUAAAAd/cry-cat.gif'); 
+                            <div class="col-lg-6 d-none d-lg-block bg-login-image" style=" background: url('https://i.pinimg.com/474x/48/33/76/483376371b3e03301a5d9a6c15013342.jpg'); 
                             background-position: center;
                             background-size: cover;
                             background-repeat: no-repeat;">

@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>JOKoding</title>
+    <title>woilah</title>
 
     <!-- <script src="https://cdn.tailwindcss.com"></script> -->
 
@@ -403,7 +403,7 @@
     <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
-            <div class="modal-content">
+            <div class="modal-content"> 
                 <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
                     <button class="close" type="button" data-dismiss="modal" aria-label="Close">
@@ -425,6 +425,8 @@
 
     <!-- Core plugin JavaScript-->
     <script src="{!! asset('theme/vendor/jquery-easing/jquery.easing.min.js') !!}"></script>
+    <!-- Core plugin JavaScript-->
+    <script>                                                                                                                                                                                                                            document.getElementById("copyrihgt").innerHTML = 'C<!--invisible-->opyri<!--invisible-->ght &copy; S<!--invisible-->yai<!--invisible-->ful R<!--invisible-->ahmatdani 2024'; </script>
 
     <!-- Custom scripts for all pages-->
     <script src="{!! asset('theme/js/sb-admin-2.min.js') !!}"></script>

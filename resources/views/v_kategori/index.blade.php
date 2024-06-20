@@ -30,7 +30,17 @@
                         </div>
                     </div>
                 </div>
+                @if(session('Success'))
+                    <div class="alert alert-success">
+                        {{ session('Success') }}
+                    </div>
+                @endif
 
+                @if(session('Gagal'))
+                    <div class="alert alert-danger">
+                        {{ session('Gagal') }}
+                    </div>
+                @endif
                 <table class="table table-bordered">
                     <thead>
                         <tr>
@@ -65,18 +75,6 @@
                         @endforelse
                     </tbody>
                     <!-- resources/views/kategori/index.blade.php -->
-
-@if(session('Success'))
-    <div class="alert alert-success">
-        {{ session('Success') }}
-    </div>
-@endif
-
-@if(session('Gagal'))
-    <div class="alert alert-danger">
-        {{ session('Gagal') }}
-    </div>
-@endif
 
 <!-- Rest of your HTML content for the index page goes here -->
 
